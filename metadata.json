@@ -1,0 +1,8 @@
+{
+  "name": "EduTask - Gerenciador Acadêmico Universitário",
+  "description": "Gerenciador de tarefas acadêmicas intuitivo e acolhedor para estudantes universitários organizarem disciplinas, prazos e rotina de estudos.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
