@@ -1,0 +1,13 @@
+Revise a responsividade de toda a aplicação EduTask.
+
+Verifique o comportamento em:
+- Desktop (1440px).
+- Notebook (1024px).
+- Tablet (768px).
+- Smartphone (390px).
+
+No mobile, adapte a navegação, os cards, formulários, tabelas e calendário para evitar rolagem horizontal desnecessária.
+
+Garanta que os elementos sejam acessíveis, legíveis e tenham áreas de interação adequadas ao toque.
+
+Não altere a identidade visual nem remova funcionalidades para adaptar as telas.

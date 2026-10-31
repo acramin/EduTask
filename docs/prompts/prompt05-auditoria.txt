@@ -1,0 +1,18 @@
+Faça uma auditoria funcional completa da aplicação EduTask.
+
+Teste e corrija:
+- Login simulado e acesso por demonstração.
+- Navegação entre todas as páginas.
+- Cadastro, edição e exclusão de disciplinas.
+- Cadastro, edição e exclusão de tarefas.
+- Associação entre tarefas e disciplinas.
+- Alteração de prioridade e status.
+- Identificação de tarefas atrasadas.
+- Filtros e ordenação.
+- Visualizações mensal e semanal do calendário.
+- Sincronização dos dados entre telas.
+- Persistência no LocalStorage após atualizar a página.
+
+Corrija erros de lógica, estados inconsistentes e elementos interativos sem funcionamento.
+
+Preserve todos os dados fictícios iniciais e a identidade visual.

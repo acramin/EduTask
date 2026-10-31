@@ -1,0 +1,17 @@
+Revise a experiência de uso do EduTask.
+
+Analise os fluxos principais de um estudante:
+
+1. Entrar no aplicativo.
+2. Consultar as tarefas pendentes.
+3. Cadastrar uma disciplina.
+4. Criar uma tarefa vinculada à disciplina.
+5. Alterar sua prioridade e prazo.
+6. Marcar uma tarefa como concluída.
+7. Consultar a tarefa no calendário.
+
+Garanta que esses fluxos sejam intuitivos e que não existam botões sem ação.
+
+Melhore mensagens de confirmação, estados vazios, validação de formulários e feedback visual após cada operação.
+
+Não adicione funcionalidades fora do escopo R1.

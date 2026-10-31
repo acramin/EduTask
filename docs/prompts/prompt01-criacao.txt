@@ -1,0 +1,242 @@
+Crie uma aplicação web responsiva chamada **EduTask**, um gerenciador de tarefas acadêmicas desenvolvido para estudantes universitários.
+
+O objetivo é centralizar a organização da vida acadêmica em uma interface intuitiva, agradável e fácil de utilizar.
+
+A aplicação deve ser um protótipo funcional de frontend, com dados fictícios e persistência local. Não é necessário desenvolver backend, banco de dados externo ou autenticação real.
+
+## 1. Tecnologias e implementação
+
+- React com TypeScript.
+- CSS moderno, organizado e responsivo.
+- Componentização dos elementos reutilizáveis.
+- LocalStorage para persistir os dados e alterações.
+- Ícones consistentes em toda a aplicação.
+- Não utilizar APIs externas, serviços pagos ou chaves de API.
+- Não implementar funcionalidades que dependam de backend.
+- Todos os elementos interativos devem funcionar.
+
+## 2. Identidade visual
+
+Desenvolva uma identidade visual própria para o EduTask.
+
+A personalidade deve ser jovem, descontraída, acolhedora e organizada, direcionada ao público universitário. Evite uma aparência infantil ou excessivamente corporativa.
+
+Diretrizes visuais:
+
+- Fundo predominantemente branco ou off-white.
+- Azul como cor principal da marca.
+- Lilás, verde-menta e laranja como cores secundárias.
+- Cards com cantos arredondados.
+- Sombras leves e discretas.
+- Ícones arredondados e modernos.
+- Tipografia contemporânea, legível e amigável.
+- Espaçamento confortável entre os elementos.
+- Microinterações e animações sutis.
+- Estados visuais claros para tarefas pendentes, concluídas e atrasadas.
+
+Crie um pequeno logotipo tipográfico para o EduTask, que também funcione como elemento de identificação na sidebar.
+
+Utilize cores secundárias para identificar visualmente as disciplinas. Mantenha a mesma cor associada a cada disciplina em todas as telas.
+
+A interface deve ter personalidade própria, sem parecer uma cópia de dashboards administrativos genéricos.
+
+## 3. Acesso e autenticação simulada
+
+Crie uma tela inicial de login contendo:
+
+- Logotipo EduTask.
+- Mensagem de boas-vindas.
+- Campo de e-mail.
+- Campo de senha com opção de visualizar a senha.
+- Botão de entrar.
+- Opção de acessar diretamente como demonstração.
+- Link visual para criar uma conta, sem necessidade de implementar cadastro real.
+
+O login deve ser simulado, sem autenticação real. Aceite credenciais fictícias ou permita acesso por demonstração.
+
+Ao entrar, encaminhe o usuário para a visão geral.
+
+O acesso à demonstração deve permitir experimentar todas as funcionalidades sem precisar preencher credenciais.
+
+## 4. Estrutura de navegação
+
+Após o acesso, apresente uma sidebar no desktop contendo:
+
+1. Visão geral.
+2. Minhas disciplinas.
+3. Minhas tarefas.
+4. Calendário.
+5. Meu perfil.
+
+A sidebar deve apresentar o logotipo, ícones, nomes das seções e indicação visual da página selecionada.
+
+No mobile, transforme a navegação em um menu compacto, adequado a telas pequenas.
+
+Inclua um cabeçalho com identificação da página e informações básicas do perfil.
+
+## 5. Visão geral
+
+Crie um dashboard inicial com:
+
+- Saudação personalizada.
+- Data atual.
+- Resumo de tarefas pendentes.
+- Resumo de tarefas concluídas.
+- Tarefas atrasadas.
+- Próximos prazos.
+- Lista de tarefas que precisam de atenção.
+- Atalho para adicionar uma nova tarefa.
+
+Os indicadores devem ser calculados com base nos dados reais armazenados na aplicação.
+
+Utilize cards visualmente agradáveis, com ícones e cores moderadas.
+
+Não transforme o dashboard em uma página excessivamente carregada de gráficos.
+
+## 6. Minhas disciplinas
+
+Crie uma tela para visualizar e gerenciar as disciplinas cadastradas.
+
+Cada disciplina deve apresentar:
+- Nome.
+- Professor.
+- Código ou identificação opcional.
+- Cor de identificação.
+- Quantidade de tarefas vinculadas.
+
+Implemente:
+- Cadastrar disciplina.
+- Editar disciplina.
+- Excluir disciplina, solicitando confirmação.
+- Visualizar as tarefas associadas à disciplina.
+
+Utilize cards ou uma organização visual equivalente, mantendo a interface organizada.
+
+## 7. Minhas tarefas
+
+Esta é uma das funcionalidades centrais do produto.
+
+Crie uma tela para gerenciamento das atividades acadêmicas.
+
+Cada tarefa deve possuir:
+- Título.
+- Descrição.
+- Disciplina associada.
+- Data de vencimento.
+- Prioridade: alta, média ou baixa.
+- Status: pendente ou concluída.
+
+Implemente:
+- Criar tarefa.
+- Editar tarefa.
+- Excluir tarefa, com confirmação.
+- Marcar tarefa como concluída.
+- Reabrir tarefa concluída.
+- Filtrar por disciplina.
+- Filtrar por prioridade.
+- Filtrar por status.
+- Ordenar por data de vencimento.
+
+Diferencie visualmente as prioridades e os status.
+
+Tarefas com prazo vencido e ainda pendentes devem apresentar indicação visual de atraso.
+
+Utilize formulários em modal ou painel lateral, com campos organizados e validação básica.
+
+## 8. Calendário integrado
+
+Crie uma visualização de calendário com:
+
+- Alternância entre visualização mensal e semanal.
+- Navegação entre meses e semanas.
+- Identificação das tarefas nas respectivas datas.
+- Cores associadas às disciplinas.
+- Indicação visual de tarefas concluídas e pendentes.
+- Clique em uma tarefa para visualizar seus detalhes.
+
+O calendário deve utilizar os mesmos dados da tela de tarefas. Não crie informações independentes.
+
+## 9. Meu perfil
+
+Crie uma tela simples com:
+- Nome da estudante.
+- E-mail fictício.
+- Curso: Engenharia de Computação.
+- Instituição: Universidade.
+- Informações básicas de perfil.
+- Opção de editar dados fictícios.
+
+## 10. Dados iniciais fictícios
+
+A aplicação deve iniciar preenchida com dados de uma estudante universitária de Engenharia nos anos iniciais.
+
+Cadastre as seguintes disciplinas:
+
+1. Cálculo I.
+2. Física I.
+3. Geometria Analítica.
+4. Química I.
+5. Lógica de Programação.
+
+Atribua uma cor diferente para cada disciplina, mantendo uma paleta pastel harmoniosa.
+
+Crie pelo menos 12 tarefas fictícias, distribuídas entre as cinco disciplinas.
+
+Exemplos:
+- Lista de exercícios: Limites e Continuidade.
+- Prova de Cálculo I.
+- Relatório de Laboratório de Física.
+- Exercícios de Cinemática.
+- Lista de Vetores e Matrizes.
+- Estudo para avaliação de Geometria Analítica.
+- Relatório de Estequiometria.
+- Questionário de Ligações Químicas.
+- Implementação de Algoritmos em Python.
+- Exercícios de Estruturas Condicionais.
+
+Distribua as tarefas entre:
+- Concluídas.
+- Pendentes.
+- Com prioridade alta, média e baixa.
+- Com vencimentos próximos.
+- Pelo menos uma tarefa atrasada.
+
+Utilize datas plausíveis de novembro de 2026, considerando a data atual do protótipo como 31/10/2026.
+
+## 11. Requisitos de funcionamento
+
+É fundamental que a aplicação seja funcional, não apenas visual.
+
+Garanta que:
+- Os botões executem as ações correspondentes.
+- Os formulários permitam cadastrar e editar informações.
+- As exclusões atualizem a interface.
+- As tarefas possam ser concluídas e reabertas.
+- Os filtros realmente funcionem.
+- O calendário reflita as alterações nas tarefas.
+- Os dados sejam persistidos no LocalStorage.
+- A navegação entre as páginas funcione.
+- A aplicação não apresente erros ao atualizar a página.
+
+## 12. Limites do escopo
+
+Implemente somente as funcionalidades previstas para a primeira release (R1).
+
+Não implementar nesta versão:
+- Notificações e lembretes automáticos.
+- Anexos de arquivos.
+- Estatísticas avançadas de produtividade.
+- Compartilhamento de tarefas.
+- Integração com serviços externos.
+
+Essas funcionalidades pertencem a uma evolução futura do produto.
+
+## 13. Resultado esperado
+
+Entregue uma aplicação completa, navegável e responsiva, com identidade visual consistente em todas as telas.
+
+Priorize a experiência do usuário, a clareza das informações e a facilidade de utilização.
+
+Não entregue apenas uma descrição, wireframe ou conjunto de telas estáticas. Implemente a aplicação funcional e disponibilize sua prévia interativa.
+
+Antes de finalizar, verifique a navegação, os formulários, as operações de CRUD, a persistência local e a responsividade.

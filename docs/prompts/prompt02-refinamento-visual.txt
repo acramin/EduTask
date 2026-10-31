@@ -1,0 +1,11 @@
+Revise a identidade visual do EduTask sem alterar suas funcionalidades ou estrutura de navegação.
+
+Quero uma identidade mais autoral, jovem e descontraída, com aparência de um produto digital real voltado para universitários.
+
+Refine a paleta de cores, tipografia, ícones, cards, botões, espaçamentos e microinterações.
+
+Mantenha a harmonia entre azul, lilás, verde-menta e laranja. Evite excesso de cores, sombras fortes ou aparência infantil.
+
+Garanta que todas as telas compartilhem o mesmo design system e que os componentes sejam visualmente consistentes.
+
+Não recrie a aplicação do zero. Trabalhe sobre a implementação existente.
