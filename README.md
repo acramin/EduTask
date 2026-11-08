@@ -66,6 +66,7 @@ Copie o arquivo .env.example para .env (se necessário)
 ```
 EduTask/
 ├── docs/            # Documentação e artefatos acadêmicos
+│   ├── apresentacao.pdf
 │   ├── enunciado.docx
 │   ├── visao-produto.docx
 │   ├── requisitos.docx
