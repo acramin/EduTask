@@ -24,6 +24,7 @@ Como parte da entrega acadêmica da disciplina de Metodologias Ágeis, a documen
 - **[Documento de Visão de Produto](./docs/visao-produto.docx):** Escopo, objetivos e proposta de valor do EduTask.
 - **[Relatórios Scrum](./docs/relatorio-scrum.docx):** Acompanhamento de sprints, backlog e entregáveis da equipe.
 - **[Prompts de Geração](./docs/prompts/):** Histórico detalhado com os 5 arquivos de prompts utilizados para a concepção do mockup.
+- **[Apresentação](./docs/apresentacao.pdf):** Apresentação usado para explicar o projeto.
 
 ---
 
